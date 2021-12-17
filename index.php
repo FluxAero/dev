@@ -13,7 +13,7 @@ include("auth.php");
 <body>
 <div class="form">
 <p>Welcome <?php echo $_SESSION['username']; ?>!</p>
-<p>This is secure area.</p>
+<p>This is secure area or....</p>
 <p><a href="dashboard.php">Dashboard</a></p>
 <a href="logout.php">Logout</a>
 </div>
